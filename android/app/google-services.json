@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "106421350853",
+    "project_id": "foodpal-fd5b6",
+    "storage_bucket": "foodpal-fd5b6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:106421350853:android:d5556b8fc8326664bc5bac",
+        "android_client_info": {
+          "package_name": "com.example.foodpal"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrummcK1Qx_9ImekNnJa8TrgJjAyD62Dw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
