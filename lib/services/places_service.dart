@@ -6,7 +6,7 @@ import '../store_details.dart';
 
 class PlacesService {
   // Include your API key directly here
-  final String apiKey = 'AIzaSyC8njTtfQouDH2MjseLY-EUDJ--GEV-1Eo';
+  final String apiKey = ''; //Add your own google places api key here
 
   /// Fetches nearby restaurants using Google Places API
   Future<List<StoreDetails>> fetchNearbyRestaurants(
