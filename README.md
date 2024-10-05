@@ -16,3 +16,5 @@ Calculator: Assist users in calculating totals and change.
 Communication Assist: Facilitate better interaction between users and staff.
 Speech-to-Text Assist: Enable users to input commands and selections via voice.
 Responsive Design: Optimized for various screen sizes and orientations.
+
+In order to get the app working, do make sure to use your own google maps api key and integrate it in to the code.
