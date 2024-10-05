@@ -1,16 +1,18 @@
-# foodpal
+FoodPal
 
-A new Flutter project.
+FoodPal is an intuitive and accessible mobile application designed to simplify the ordering and payment process for users. Leveraging Flutter's robust framework, FoodPal offers a seamless experience with features tailored for users who benefit from auditory assistance, ensuring inclusivity and ease of use.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Features
+Order Summary: Review selected items with customizations and total pricing.
+Payment Assistance Module:
+Denomination Selection: Choose from available Singaporean currency denominations ($100, $10, $5, $2, $1, $0.50).
+Text-to-Speech (TTS): Auditory prompts guide users through the payment process in multiple languages.
+Change Calculation: Automatically calculates change due and provides an option to hear the amount.
+Accessibility:
+Voice prompts in English, Chinese, Malay, and Tamil.
+Voice icon button to audibly inform users of their change.
+Interactive Tools:
+Calculator: Assist users in calculating totals and change.
+Communication Assist: Facilitate better interaction between users and staff.
+Speech-to-Text Assist: Enable users to input commands and selections via voice.
+Responsive Design: Optimized for various screen sizes and orientations.
