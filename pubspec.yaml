@@ -38,6 +38,17 @@ dependencies:
   image_picker: ^1.0.7
   firebase_core: ^3.5.0
   google_mlkit_text_recognition: ^0.13.1
+  http: ^1.2.2
+  json: ^0.20.2
+  image: ^4.2.0
+  path_provider: ^2.1.4
+  flutter_tts: ^4.0.2
+  math_expressions: ^2.6.0
+  shared_preferences: ^2.3.2
+  geolocator: ^13.0.1
+  permission_handler: ^11.3.1
+  speech_to_text: ^7.0.0
+  #flutter_dotenv: ^5.1.0
   # firebase_ml_vision: ^0.12.0+3  # Remove this line
 
 dev_dependencies:
@@ -63,6 +74,93 @@ flutter:
   uses-material-design: true
   assets:
     - assets/
+    - assets/currency/20.00.png
+    - assets/currency/0.50.png
+    - assets/currency/1.00.png
+    - assets/currency/2.00.png
+    - assets/currency/5.00.png
+    - assets/currency/10.00.png
+    - assets/currency/100.00.png
+    - assets/communication/order_food.png
+    - assets/communication/menu.png
+    - assets/communication/need_assistance.png
+    - assets/communication/restroom.png
+    - assets/communication/thank_you.png
+    - assets/communication/call_waiter.png
+    - assets/communication/ready_to_pay.png
+    - assets/communication/excuse_me.png
+    - assets/communication/repeat_that.png
+    - assets/communication/have_question.png
+    - assets/communication/hungry.png
+    - assets/communication/thirsty.png
+    - assets/communication/cost.png
+    - assets/communication/do_not_understand.png
+    - assets/communication/please_help.png
+    - assets/communication/goodbye.png
+    - assets/customizations/no_onions.png
+    - assets/customizations/extra_cheese.png
+    - assets/customizations/gluten_free.png
+    - assets/customizations/spicy.png
+    - assets/customizations/less_salt.png
+    - assets/customizations/no_customizations.png
+    - assets/congratulations.gif
+    - assets/flags/en-US.png
+    - assets/flags/zh-CN.png
+    - assets/flags/ms-MY.png
+    - assets/flags/ta-IN.png
+    - assets/french_ladle/french_onion_soup.jpg
+    - assets/french_ladle/escargots.jpg
+    - assets/french_ladle/coq_au_vin.jpg
+    - assets/french_ladle/beef_bourguignon.jpg
+    - assets/french_ladle/ratatouille.jpg
+    - assets/french_ladle/creme_brulee.jpg
+    - assets/french_ladle/chocolate_mousse.jpg
+    - assets/french_ladle/coffee.jpg
+    - assets/french_ladle/red_wine.jpg
+    - assets/customizations/less_acid.png
+    - assets/customizations/extra_bottle.png
+    - assets/customizations/no_sugar.png
+    - assets/customizations/extra_shot.png
+    - assets/customizations/less_sugar.png
+    - assets/customizations/extra_whipped_cream.png
+    - assets/customizations/no_vanilla.png
+    - assets/customizations/extra_sugar.png
+    - assets/customizations/extra_herbs.png
+    - assets/customizations/less_oil.png
+    - assets/customizations/no_carrots.png
+    - assets/customizations/extra_mushrooms.png
+    - assets/customizations/less_salt.png
+    - assets/customizations/extra_wine_sauce.png
+    - assets/customizations/extra_butter.png
+    - assets/customizations/less_garlic.png
+    - assets/mala_xiang_guo/soda.jpg
+    - assets/mala_xiang_guo/green_tea.jpg
+    - assets/mala_xiang_guo/sweet_tofu.jpg
+    - assets/mala_xiang_guo/fortune_cookies.jpg
+    - assets/mala_xiang_guo/fried_rice.jpg
+    - assets/mala_xiang_guo/steamed_rice.jpg
+    - assets/mala_xiang_guo/kung_pao_chicken.jpg
+    - assets/mala_xiang_guo/beef_with_broccoli.jpg
+    - assets/mala_xiang_guo/mala_xiang_guo.jpg
+    - assets/mala_xiang_guo/sichuan_dumplings.jpg
+    - assets/mala_xiang_guo/spicy_cucumber.jpg
+    - assets/customizations/extra_ice.png
+    - assets/customizations/less_sugar.png
+    - assets/customizations/extra_syrup.png
+    - assets/customizations/less_sweet.png
+    - assets/customizations/extra_crispy.png
+    - assets/customizations/extra_egg.png
+    - assets/customizations/white_rice.png
+    - assets/customizations/brown_rice.png
+    - assets/customizations/extra_vegetables.png
+    - assets/customizations/less_peanuts.png
+    - assets/customizations/less_sauce.png
+    - assets/customizations/extra_broccoli.png
+    - assets/customizations/extra_noodles.png
+    - assets/customizations/fried.png
+    - assets/customizations/steamed.png
+    - assets/customizations/extra_garlic.png
+    - assets/customizations/less_chili.png
   # To add assets to your application, add an assets section, like this:
   # assets:
   #   - images/a_dot_burr.jpeg
